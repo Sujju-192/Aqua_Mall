@@ -1,0 +1,7 @@
+.slide{
+    height: 50vh;
+    width: 100%;
+    background-color: aliceblue;
+    border: 2px solid black;
+    margin-top: 2rem;
+}

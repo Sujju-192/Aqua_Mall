@@ -1,0 +1,51 @@
+.panel{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    height: 7vh;
+    width: 100vw;
+    background-color: #000000;
+}
+.brand{
+    background-color: transparent;
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;  
+    position: fixed;
+    top: 20vh;  
+}
+.brand-names{
+    height: 25vh;
+    /* padding: 2rem; */
+    border-radius: 2rem;
+    margin-top: 2vh;
+    background-color: rgba(114, 114, 114, 0.8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.br-name{
+    height: 150px;
+    width: 150px;
+    /* margin: 20px; */
+    background-color: white;
+    background-size: cover;    
+    margin: 1rem;
+    border-radius: 2rem; 
+}
+.br-name img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem; 
+}
+select{
+    background-color: rgba(0, 0, 0);
+    color: white;
+    margin-left: 1.5rem;
+    height: 5vh;
+    /* border: 3px solid white; */
+    border-radius: 0.5rem;
+}
